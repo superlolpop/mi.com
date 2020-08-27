@@ -1,4 +1,64 @@
+@charset 'utf-8';
 * {
   margin: 0;
   padding: 0;
+}
+html,
+body {
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 160px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #FD4E39, #FB5A48);
+}
+header > img {
+  margin: 0 auto;
+  display: block;
+}
+header > #header-xia {
+  width: 100%;
+  height: 40px;
+  background: #000000;
+}
+header > #header-xia > #kuan {
+  width: 1226px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > #header-xia > #kuan > #lie {
+  width: 770px;
+  height: 40px;
+  font-size: 12px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > #header-xia > #kuan > #lie > li {
+  display: flex;
+}
+header > #header-xia > #kuan > #lie > li > a {
+  display: block;
+  height: 40px;
+  line-height: 39px;
+  color: #B0B0B0;
+  text-decoration: none;
+}
+header > #header-xia > #kuan > #lie > li > a:hover {
+  color: #ffffff;
+}
+header > #header-xia > #kuan > #lie > li > span {
+  display: block;
+  height: 40px;
+  line-height: 39px;
+  color: #B0B0B0;
+}
+header > #header-xia > #kuan > #lie:nth-child(2) {
+  width: 130px;
+  height: 40px;
 }
