@@ -1,0 +1,230 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+ul {
+  list-style: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+header {
+  width: 1130px;
+  height: 98px;
+}
+header > img {
+  width: 200px;
+  height: 98px;
+  float: left;
+}
+main {
+  width: 100%;
+  height: 587px;
+  background: url(../../images/dengru/bjtu.jpg) no-repeat;
+  background-position: center;
+}
+main > #kuang {
+  width: 1130px;
+  height: 588px;
+  margin: 0 auto;
+  position: relative;
+}
+main > #kuang > .baikuang {
+  width: 410px;
+  height: 558px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+main > #kuang > .baikuang > .tou {
+  width: 330px;
+  height: 82px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main > #kuang > .baikuang > .tou > a {
+  height: 27px;
+  font-size: 24px;
+  color: #666666;
+}
+main > #kuang > .baikuang > .tou > span {
+  display: block;
+  height: 27px;
+  border: 1px solid #e0e0e0;
+}
+main > #kuang > .baikuang > .tou > .dr {
+  color: #ff6700;
+}
+main > #kuang > .baikuang > .tou > a:hover {
+  color: #ff6700;
+}
+main > #kuang > .baikuang > input {
+  width: 306px;
+  height: 22px;
+  line-height: 22px;
+  padding: 13px 16px 13px 14px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+}
+main > #kuang > .baikuang > input:nth-of-type(2) {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+main > #kuang > .baikuang > .tishi {
+  width: 338px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #ff6700;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+}
+main > #kuang > .baikuang > .tishi > span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #ff6700;
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+  margin-right: 5px;
+}
+main > #kuang > .baikuang > .button {
+  width: 338px;
+  height: 50px;
+  background-color: #ff6700;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+main > #kuang > .baikuang > .sjdr {
+  font-size: 14px;
+  color: #ff6700;
+  margin: 15px 0;
+}
+main > #kuang > .baikuang > .wangji {
+  width: 338px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999999;
+  font-size: 14px;
+  margin-top: 10px;
+}
+main > #kuang > .baikuang > .wangji > a {
+  color: #999999;
+  font-size: 14px;
+}
+main > #kuang > .baikuang > .wangji > span {
+  margin: 0 5px;
+}
+main > #kuang > .baikuang > .wangji > a:hover {
+  color: #ff6700;
+}
+main > #kuang > .baikuang > .qita {
+  width: 338px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+main > #kuang > .baikuang > .qita > .fenge {
+  width: 338px;
+  height: 14px;
+  font-size: 14px;
+  color: #bbbbbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > #kuang > .baikuang > .qita > .fenge > span {
+  flex-grow: 1;
+  border-top: 1px solid #bbbbbb;
+}
+main > #kuang > .baikuang > .qita > .qitaicon {
+  width: 338px;
+  height: 36px;
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > #kuang > .baikuang > .qita > .qitaicon > span {
+  width: 35px;
+  height: 35px;
+  font-size: 30px;
+  line-height: 35px;
+  margin: 0 15px;
+}
+main > #kuang > .baikuang > .qita > .qitaicon > span:nth-of-type(1) {
+  color: #0288D1;
+  font-size: 35px;
+}
+main > #kuang > .baikuang > .qita > .qitaicon > span:nth-of-type(2) {
+  color: #D32F2F;
+}
+main > #kuang > .baikuang > .qita > .qitaicon > span:nth-of-type(3) {
+  color: #00AAEE;
+}
+main > #kuang > .baikuang > .qita > .qitaicon > span:nth-of-type(4) {
+  color: #00D20D;
+}
+footer {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer > ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #757575;
+}
+footer > ul > span {
+  margin: 0 15px;
+}
+footer > .dibu {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #757575;
+}
+footer > .dibu > img {
+  width: 20px;
+  height: 20px;
+}
