@@ -434,6 +434,7 @@ main > .leftzuo > .datup {
   width: 500px;
   height: 500px;
   border: 1px solid #ccc;
+  background: #ffffff;
   margin-left: 10px;
   overflow: hidden;
   position: absolute;
@@ -452,22 +453,29 @@ main > .leftzuo > .slider {
   position: relative;
   overflow: hidden;
 }
-main > .leftzuo > .slider > .yidong {
+main > .leftzuo > .slider > .smallpic {
+  width: 500px;
+  height: 540px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+main > .leftzuo > .slider > .smallpic > .yidong {
   background-color: orange;
   opacity: 0.2;
   position: absolute;
   top: 0;
   left: 0;
 }
-main > .leftzuo > .slider > .changtiao {
+main > .leftzuo > .slider > .smallpic > .changtiao {
   width: 4000px;
-  height: 560px;
+  height: 540px;
   position: absolute;
   user-select: none;
 }
-main > .leftzuo > .slider > .changtiao > img {
-  width: 560px;
-  height: 560px;
+main > .leftzuo > .slider > .smallpic > .changtiao > img {
+  width: 500px;
+  height: 540px;
   float: left;
 }
 main > .leftzuo > .slider > span {
@@ -476,6 +484,7 @@ main > .leftzuo > .slider > span {
   font-size: 50px;
   top: 43%;
   user-select: none;
+  cursor: pointer;
 }
 main > .leftzuo > .slider > span:last-of-type {
   right: 0;
@@ -485,8 +494,13 @@ main > .leftzuo > .slider > p {
   bottom: 10px;
   left: 26%;
   width: 50px;
-  height: 3px;
-  background: #E0E0E0;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+main > .leftzuo > .slider > p > img {
+  width: 50px;
+  height: 50px;
 }
 main > .leftzuo > .slider > P:nth-of-type(2) {
   left: 36%;
@@ -501,7 +515,7 @@ main > .leftzuo > .slider > P:nth-of-type(5) {
   left: 66%;
 }
 main > .leftzuo > .slider > .yuan {
-  background: #757575;
+  border: 1px solid #ff6700;
 }
 main > .rightyou {
   width: 613px;
@@ -603,6 +617,12 @@ main > .rightyou > .xuanze > .xzk > .k {
   line-height: 38px;
   color: #8B7575;
   cursor: pointer;
+}
+main > .rightyou > .xuanze > .xzk > .kliang {
+  border-color: #ff6700;
+}
+main > .rightyou > .xuanze > .xzk > .kliang > p {
+  color: #ff6700;
 }
 main > .rightyou > .xzbaohu {
   width: 600px;
@@ -713,6 +733,17 @@ main > .rightyou > .xzbaohu > .kk:first-of-type {
   margin-top: 20px;
   border-top: 1px solid #E0E0E0;
 }
+main > .rightyou > .xzbaohu > .kkliang {
+  border: 1px solid #ff6700 !important;
+}
+main > .rightyou > .xzbaohu > .kkliang > em {
+  border: 1px solid #ff6700;
+  color: #ff6700;
+}
+main > .rightyou > .xzbaohu > .kkliang > .nrwz > .psan > em {
+  border: none;
+  background: #ff6700;
+}
 main > .rightyou > .kuanger {
   margin: 0;
   border: none;
@@ -720,7 +751,6 @@ main > .rightyou > .kuanger {
   background: #FAFAFA;
   color: #333333;
   width: 540px;
-  height: 70px;
   margin-bottom: 40px;
 }
 main > .rightyou > .kuanger > .wzi {
@@ -740,6 +770,7 @@ main > .rightyou > .kuanger > .wzi > .swenz {
 main > .rightyou > .kuanger > .wzi > p {
   font-size: 24px;
   color: #ff6700;
+  margin-top: 20px;
 }
 main > .rightyou > .jrgwc {
   width: 600px;

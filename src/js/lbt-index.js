@@ -1,5 +1,5 @@
-// import $ from '../js/library/jquery.js';
-(function($) {
+import $ from './library/jquery.js';
+(function() {
     $.fn.extend({
         slider: function(options) {
             let main = null,
@@ -113,11 +113,34 @@
             main();
         }
     })
-})(jQuery);
+})();
 
 $(function() {
     $('.slider').slider({
         speed: 1000,
         delay: 3000
     });
-})
+});
+
+(function() {
+    $.ajax({
+        type: "get",
+        url: "../../interface/indexget.php",
+        dataType: "json",
+        success: function(res) {
+            // console.log(res);
+            let temp = '';
+            res.forEach((elm, i) => {
+                let pic = JSON.parse(elm.picture);
+                // console.log(i);
+                temp += `<a href="./xiangqing.html?id=${elm.id}">
+                <img src="..${pic[0].src}" alt="">
+                <p>${elm.title}</p>
+                <p>${elm.sectitle}</p>
+                <p>${elm.price}元&nbsp;</p>
+                </a>`;
+            });
+            $('#youxiao').append(temp);
+        }
+    });
+})();

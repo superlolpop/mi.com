@@ -44,7 +44,7 @@ main > img {
 main > h1 {
   font-weight: 500;
   font-size: 30px;
-  margin-top: 48px;
+  margin-top: 20px;
 }
 main input {
   width: 306px;
@@ -56,81 +56,13 @@ main input {
   margin: 10px 0;
 }
 main > .zhanghao {
-  margin-top: 30px;
   font-size: 14px;
   color: #696969;
-  position: relative;
-}
-main > .zhanghao > input {
-  cursor: pointer;
-}
-main > .zhanghao::before {
-  content: "";
-  position: absolute;
-  top: 30px;
-  right: 0;
-  display: block;
-  width: 40px;
-  height: 40px;
-  border-left: 1px solid #e0e0e0;
-  cursor: pointer;
-}
-main > .zhanghao::after {
-  content: "";
-  position: absolute;
-  top: 40px;
-  right: 10px;
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 1px solid #e0e0e0;
-  cursor: pointer;
-}
-main > .shouji {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #696969;
-}
-main > .shouji > .sjipt {
-  width: 306px;
-  height: 20px;
-  padding: 10px 16px 10px 14px;
-  border: 1px solid #e0e0e0;
-  margin: 10px 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
 }
-main > .shouji > .sjipt > p {
-  width: 69px;
-  height: 40px;
-  line-height: 40px;
-  border-right: 1px solid #e0e0e0;
-}
-main > .shouji > .sjipt > input {
-  margin: 0;
-  border: 0;
-}
-main > .shouji > .tishi {
-  width: 338px;
-  margin-bottom: 14px;
-  font-size: 14px;
-  color: #ff6700;
-  display: none;
-}
-main > .shouji > .tishi > span {
-  display: block;
-  float: left;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  color: #ffffff;
-  background: #ff6700;
-  font-size: 12px;
-  text-align: center;
-  line-height: 14px;
-  margin-right: 5px;
+main > .zhanghao span {
+  color: red;
 }
 main > .ljzc {
   width: 338px;

@@ -1,5 +1,5 @@
-// import $ from '../js/library/jquery.js';
-(function($) {
+import $ from './library/jquery.js';
+(function() {
     $.fn.extend({
         slider: function(options) {
             let main = null,
@@ -18,7 +18,7 @@
             $.extend(defaults, options);
 
             init = function() {
-                elms.sliderDiv = this.children('.changtiao');
+                elms.sliderDiv = this.children('.smallpic').children('.changtiao');
                 elms.btns = this.children('span');
                 elms.sliderDiv.append(elms.sliderDiv.children('img').first().clone());
                 elms.imgWidth = elms.sliderDiv.children('img').first().width();
@@ -49,19 +49,19 @@
                             elms.index = 1;
                             break;
                         case 1:
-                            elms.sliderDiv.css('left', `-560px`);
+                            elms.sliderDiv.css('left', `-500px`);
                             elms.index = 2;
                             break;
                         case 2:
-                            elms.sliderDiv.css('left', `-1120px`);
+                            elms.sliderDiv.css('left', `-1000px`);
                             elms.index = 3;
                             break;
                         case 3:
-                            elms.sliderDiv.css('left', `-1680px`);
+                            elms.sliderDiv.css('left', `-1500px`);
                             elms.index = 4;
                             break;
                         case 4:
-                            elms.sliderDiv.css('left', `-2240px`);
+                            elms.sliderDiv.css('left', `-2000px`);
                             elms.index = 5;
                             break;
                     }
@@ -121,4 +121,4 @@
             main();
         }
     })
-})(jQuery);
+})();

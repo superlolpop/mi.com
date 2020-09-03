@@ -10866,4 +10866,5 @@
 
     return jQuery;
 });
-// export default $;
+
+export default $;

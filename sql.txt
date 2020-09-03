@@ -1,0 +1,276 @@
+INSERT INTO `product` (`id`,`title`,`price`,`num`,`picture`,`details`) VALUES(8,'Redmi K30 Pro 变焦版 8GB+128GB','3799.00',145,'[{"title":"kpb-p1","src":"/images/lunbo/kpb-1.jpg"},{title":"kpb-p2","src":"/images/lunbo/kpb-2.jpg"},{title":"kpb-p3","src":"/images/lunbo/kpb-3.jpg"},{title":"kpb-p4","src":"/images/lunbo/kpb-4.jpg"},{title":"kpb-p5","src":"/images/lunbo/kpb-5.jpg"}]','<div class="biaoti">
+
+        <div class="btzhong">
+
+            <h3>Redmi K30 Pro 变焦版 8GB+128GB</h3>
+            <div class="liangge">
+                <span>|</span>
+                <a href="">Redmi 9</a>
+                <span>|</span>
+                <a href="">Redmi 8</a>
+            </div>
+            <!-- 两个小的 -->
+
+            <div class="youbian">
+                <a href="">概述</a>
+                <span>|</span>
+                <a href="">参数</a>
+                <span>|</span>
+                <a href="">相机研发揭秘</a>
+                <span>|</span>
+                <a href="">F码通道</a>
+                <span>|</span>
+                <a href="">咨询客服</a>
+                <span>|</span>
+                <a href="">用户评价</a>
+            </div>
+            <!-- 右边一排 -->
+
+        </div>
+
+    </div>
+    <!-- 标题 -->
+
+
+    <main>
+
+        <div class="leftzuo">
+
+            <div class="slider">
+                <div class="changtiao">
+                    <img src="../images/lunbo/k30-1.jpg" alt="">
+                    <img src="../images/lunbo/k30-2.jpg" alt="">
+                    <img src="../images/lunbo/k30-3.jpg" alt="">
+                    <img src="../images/lunbo/k30-4.jpg" alt="">
+                    <img src="../images/lunbo/k30-5.jpg" alt="">
+                </div>
+
+                <span>&lt;</span>
+                <span>&gt;</span>
+                <p class="yuan"></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+
+                <div class="yidong hide"></div>
+                <!-- 移动框 -->
+            </div>
+            <!-- lbt -->
+
+            <div class="datup hide">
+                <img src="../images/lunbo/k30-1.jpg" alt="" class="bigpicture">
+            </div>
+            <!-- 大图 -->
+
+        </div>
+        <!-- 左边 -->
+
+        <div class="rightyou">
+
+            <div class="biaoming">
+                <p class="bmz">Redmi K30 Pro 变焦版 8GB+128GB</p>
+                <p class="miaoshu">「6GB+128GB到手价2499元起；购机享6期分期免息，低至417元起/期」<span>双模5G / 高通骁龙865 / 弹出式超光感全面屏 / 索尼6400万双光学防抖四摄 / 8K视频拍摄 / 30倍变焦 / 超大面积VC立体散热 / 4700mAh+33W疾速闪充 / 多功能NFC / 红外遥控</span></p>
+                <p class="xiaozi">小米自营</p>
+                <p class="jiage">3799 元</p>
+            </div>
+            <!-- 标明 -->
+
+            <div class="kuangkuang">
+
+                <span class="iconfont icon-dizhi"></span>
+                <div class="wzi">
+                    <div class="swenz">
+                        <p>北京&nbsp;&nbsp;北京市&nbsp;&nbsp;海淀区&nbsp;&nbsp;清河街道&nbsp;&nbsp;</p><a href="">修改</a>
+                    </div>
+                    <p>有现货</p>
+                </div>
+
+            </div>
+            <!-- 框框 -->
+
+            <div class="xuanze">
+                <p class="btbt">选择颜色</p>
+                <div class="xzk">
+                    <div class="k">
+                        <p>薄荷绿</p>
+                    </div>
+                    <div class="k">
+                        <p>天云黑</p>
+                    </div>
+                    <div class="k">
+                        <p>水晶蓝</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 选择框 -->
+
+            <div class="xuanze">
+                <p class="btbt">选择版本</p>
+                <div class="xzk">
+                    <div class="k">
+                        <p>8GB+256GB</p>
+                    </div>
+                    <div class="k">
+                        <p>8GB+128GB</p>
+                    </div>
+                    <div class="k">
+                        <p>12GB+256GB</p>
+                    </div>
+                    <div class="k">
+                        <p>16GB+512GB</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 选择框二 -->
+
+            <div class="xzbaohu">
+                <p class="btbtbt">选择小米提供的意外保护<a href="">了解意外保护 ></a></p>
+                <div class="kk">
+                    <em>√</em>
+                    <img src="../images/pms.png" alt="">
+                    <div class="nrwz">
+                        <p class="pyi">意外保障服务<span>349元</span></p>
+                        <p class="per">手机意外碎屏/进水/碾压等损坏</p>
+                        <p class="psan">
+                            <em></em> 我已阅读
+                            <a href="">服务条款&nbsp;|</a>
+                            <a href="">常见问题</a>
+                            <span>349元</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="kk">
+                    <em>√</em>
+                    <img src="../images/pms.png" alt="">
+                    <div class="nrwz">
+                        <p class="pyi">碎屏保障服务<span>249元</span></p>
+                        <p class="per">手机意外碎屏/进水/碾压等损坏</p>
+                        <p class="psan">
+                            <em></em> 我已阅读
+                            <a href="">服务条款&nbsp;|</a>
+                            <a href="">常见问题</a>
+                            <span>249元</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 选择保护 -->
+
+            <div class="xzbaohu">
+                <p class="btbtbt">选择小米提供的延长保修<a href="">了解意外保护 ></a></p>
+                <div class="kk">
+                    <em>√</em>
+                    <img src="../images/pms.png" alt="">
+                    <div class="nrwz">
+                        <p class="pyi">延长保修服务<span>159元</span></p>
+                        <p class="per">手机意外碎屏/进水/碾压等损坏</p>
+                        <p class="psan">
+                            <em></em> 我已阅读
+                            <a href="">服务条款&nbsp;|</a>
+                            <a href="">常见问题</a>
+                            <span>159元</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 选择延长保修 -->
+
+            <div class="xzbaohu">
+                <p class="btbtbt">选择小米提供的云空间服务<a href="">了解意外保护 ></a></p>
+                <div class="kk">
+                    <em>√</em>
+                    <img src="../images/pms.png" alt="">
+                    <div class="nrwz">
+                        <p class="pyi">云空间年卡200G<span>已省80元</span></p>
+                        <p class="per">手机意外碎屏/进水/碾压等损坏</p>
+                        <p class="psan">
+                            <em></em> 我已阅读
+                            <a href="">服务条款&nbsp;|</a>
+                            <a href="">常见问题</a>
+                            <span>79元</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="kk">
+                    <em>√</em>
+                    <img src="../images/pms.png" alt="">
+                    <div class="nrwz">
+                        <p class="pyi">云空间年卡50G<span>49元</span></p>
+                        <p class="per">手机意外碎屏/进水/碾压等损坏</p>
+                        <p class="psan">
+                            <em></em> 我已阅读
+                            <a href="">服务条款&nbsp;|</a>
+                            <a href="">常见问题</a>
+                            <span>49元</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="kk">
+                    <em>√</em>
+                    <img src="../images/pms.png" alt="">
+                    <div class="nrwz">
+                        <p class="pyi">云空间月卡50G<span>已省5元</span></p>
+                        <p class="per">手机意外碎屏/进水/碾压等损坏</p>
+                        <p class="psan">
+                            <em></em> 我已阅读
+                            <a href="">服务条款&nbsp;|</a>
+                            <a href="">常见问题</a>
+                            <span>1元</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 选择云空间 -->
+
+            <div class="kuanger">
+
+                <div class="wzi">
+                    <div class="swenz">
+                        <p>Redmi K30 Pro 变焦版 8GB+128GB 月幕白</p><span>3799元</span>
+                    </div>
+                    <p>总计：3799元</p>
+                </div>
+
+            </div>
+            <!-- 框框 -->
+
+            <div class="jrgwc">
+                <a href="" class="jr">加入购物车</a>
+                <!-- 加入 -->
+                <a href="" class="xh">喜欢</a>
+                <!-- 喜欢 -->
+            </div>
+            <!-- 加入购物车 -->
+
+            <div class="ydgou">
+                <ul>
+                    <li>
+                        <em>√</em> &nbsp;小米自营
+                    </li>
+                    <li>
+                        <em>√</em> &nbsp;小米发货
+                    </li>
+                    <li>
+                        <em>√</em> &nbsp;7天无理由退货
+                    </li>
+                    <li>
+                        <em>√</em> &nbsp;运费说明
+                    </li>
+                    <li>
+                        <em>√</em> &nbsp;企业信息
+                    </li>
+                    <li>
+                        <em>√</em> &nbsp;7天价格保护
+                    </li>
+                </ul>
+            </div>
+            <!-- 一堆勾 -->
+
+        </div>
+        <!-- 右边 -->
+
+    </main>')

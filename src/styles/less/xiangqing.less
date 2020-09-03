@@ -562,6 +562,7 @@ main{
             width: 500px;
             height: 500px;
             border: 1px solid #ccc;
+            background: #ffffff;
             margin-left: 10px;
             overflow: hidden;
             position: absolute;
@@ -582,47 +583,62 @@ main{
             position: relative;
             overflow: hidden;
 
-            &>.yidong{
-                background-color: orange;
-                opacity: .2;
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
-            // 移动框
-        
-            &>.changtiao{
-                width: 4000px;
-                height: 560px;
-                position: absolute;
-                user-select: none;
-        
-                &>img{
-                    width: 560px;
-                    height: 560px;
-                    float: left;
+            &>.smallpic{
+                width: 500px;
+                height: 540px;
+                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
+                
+                &>.yidong{
+                    background-color: orange;
+                    opacity: .2;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                // 移动框
+            
+                &>.changtiao{
+                    width: 4000px;
+                    height: 540px;
+                    position: absolute;
+                    user-select: none;
+                
+                    &>img{
+                        width: 500px;
+                        height: 540px;
+                        float: left;
+                    }
                 }
             }
-        
+
             &>span{
                 position: absolute;
                 color: #909090;
                 font-size: 50px;
                 top: 43%;
                 user-select: none;
+                cursor: pointer;
             }
-        
+            
             &>span:last-of-type{
                 right: 0;
             }
-        
+            
             &>p{
                 position: absolute;
                 bottom: 10px;
                 left: 26%;
                 width: 50px;
-                height: 3px;
-                background: #E0E0E0;
+                height: 50px;
+                border: 1px solid #e0e0e0;
+                cursor: pointer;
+
+                &>img{
+                    width: 50px;
+                    height: 50px;
+                }
             }
         
             &>P:nth-of-type(2){
@@ -642,7 +658,7 @@ main{
             }
         
             &>.yuan{
-                background: #757575;
+                border:1px solid #ff6700;
             }
         }
     }
@@ -758,6 +774,12 @@ main{
                     line-height: 38px;
                     color: #8B7575;
                     cursor: pointer;
+                }
+                &>.kliang{
+                    border-color: #ff6700;
+                    &>p{
+                        color: #ff6700;
+                    }
                 }
             }
         }
@@ -889,6 +911,22 @@ main{
                 border-top: 1px solid #E0E0E0;
             }
 
+            &>.kkliang{
+                border: 1px solid #ff6700 !important;
+                &>em{
+                    border: 1px solid #ff6700;
+                    color: #ff6700;
+                }
+                &>.nrwz{
+                    &>.psan{
+                        &>em{
+                            border: none;
+                            background: #ff6700;
+                        }
+                    }
+                }
+            }
+
         }
         // 选择保护
 
@@ -899,7 +937,6 @@ main{
             background: #FAFAFA;
             color: #333333;
             width: 540px;
-            height: 70px;
             margin-bottom: 40px;
             
             &>.wzi{
@@ -920,6 +957,7 @@ main{
                 &>p{
                     font-size: 24px;
                     color: #ff6700;
+                    margin-top: 20px;
                 }
             }
         }

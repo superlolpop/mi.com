@@ -198,6 +198,8 @@
     }
 
 
-    window.$$ = init; // init 暴露给全局环境
+    window.$ = init; // init 暴露给全局环境
 
 })();
+
+export default $;

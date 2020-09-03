@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/css/zhuce.css">
+    <link rel="stylesheet" href="../styles/css/setting.css">
     <link rel="stylesheet" href="../icon-font/font_2/iconfont.css">
     <title>小米注册</title>
 </head>
@@ -21,40 +21,26 @@
         <h1>注册小米帐号</h1>
 
         <div class="zhanghao">
-            <p>国家/地区</p>
-            <input type="text" placeholder="中国">
-            <p>成功注册帐号后，国家/地区将不能被修改</p>
+            <p>账号</p>
+            <input id="username" type="text" placeholder="请输入账号">
+            <span class="username"></span>
         </div>
-        <!-- 帐号 -->
-
-        <div class="shouji">
-
-            <p>手机号码</p>
-
-            <div class="sjipt">
-                <p>+86</p>
-                <input id="phone" type="text" placeholder="请输入手机号">
-            </div>
-
-            <p class="tishi">
-                <span>!</span> 请输入手机号码
-            </p>
-            <!-- 登入提示 -->
-
+        <div class="zhanghao">
+            <p>密码</p>
+            <input id="password" type="password" placeholder="请输入密码">
+            <span class="password"></span>
         </div>
-        <!-- 手机号码 -->
+        <div class="zhanghao">
+            <p>确认密码</p>
+            <input id="cpsw" type="password" placeholder="请确认密码">
+            <span class="cpsw"></span>
+        </div>
+
 
         <input class="ljzc" type="button" value="立即注册">
         <!-- 立即注册 -->
 
-        <div class="dagou">
-            <p>
-                已阅读并同意：小米&nbsp;
-                <span>用户协议</span>&nbsp;和&nbsp;
-                <span>隐私政策</span>
-            </p>
-        </div>
-        <!-- 已同意 -->
+
 
     </main>
     <!-- 主体 -->
@@ -83,7 +69,7 @@
     <!-- footer -->
 
 
-    <script src="../js/zhuce.js" type="module"></script>
+    <script src="../js/setting.js" type="module"></script>
 </body>
 
 </html>
